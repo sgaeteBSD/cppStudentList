@@ -1,0 +1,20 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+struct Student {
+  char name[10]
+  int id;
+  float gpa;
+};
+
+int main()
+{
+  Student george;
+  vector<Student> students;
+  george.name = george;
+  george.id = 123;
+  george.gpa = 4.00;
+  students.push_back(george);
+}
